@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ClipingFactory : clips Wanted FR et Spotlight FR</title><meta name="description" content="Outil de production et de publication des clips des chaînes Wanted FR et Spotlight FR.">
+<link rel="icon" href="assets/clipingfactory-icon-1024.png"><style>
+:root{--bg:#0d0718;--card:#170d2b;--line:#2c1d4a;--text:#ece8f6;--muted:#a79fc0;--accent:#5ce1ff;--accent2:#ff5cbb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+header{position:sticky;top:0;z-index:5;background:rgba(13,7,24,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{max-width:1040px;margin:0 auto;display:flex;align-items:center;gap:20px;padding:12px 20px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;color:var(--text);text-decoration:none;margin-right:auto}
+.brand img{width:36px;height:36px;border-radius:8px}
+.nav a.link{color:var(--muted);text-decoration:none;font-size:15px}.nav a.link:hover,.nav a.link[aria-current]{color:var(--text)}
+main{max-width:1040px;margin:0 auto;padding:0 20px}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center;padding:72px 0 48px}
+.hero h1{font-size:44px;line-height:1.1;margin:0 0 16px}
+.hero h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);font-size:18px;margin:0 0 12px}
+.hero img{width:100%;max-width:340px;justify-self:center;border-radius:28px;box-shadow:0 20px 60px rgba(47,125,255,.35)}
+section{padding:40px 0;border-top:1px solid var(--line)}
+h2{font-size:28px;margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.card h3{margin:0 0 8px;font-size:18px}.card p{margin:0;color:var(--muted)}
+.num{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,var(--accent),#3b1fb0);color:#fff;font-weight:800;margin-bottom:10px}
+.channels{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.channel{display:flex;gap:18px;align-items:center}
+.channel img{width:96px;height:96px;border-radius:50%}
+.legal h1{font-size:36px;margin:48px 0 6px}.legal .date{color:var(--muted);margin:0 0 28px}
+.legal h2{font-size:22px;margin:32px 0 10px}.legal h3{font-size:18px;margin:22px 0 8px}
+.legal p,.legal li{color:#d7d1e8}
+.lang{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.06em;color:var(--accent);border:1px solid var(--line);border-radius:999px;padding:2px 10px;margin:8px 0}
+.en{margin-top:56px;padding-top:24px;border-top:2px dashed var(--line)}
+footer{border-top:1px solid var(--line);margin-top:56px}
+.foot{max-width:1040px;margin:0 auto;padding:28px 20px;display:flex;gap:22px;flex-wrap:wrap;color:var(--muted);font-size:14px}
+.foot a{color:var(--text)}
+@media(max-width:780px){.hero{grid-template-columns:1fr;padding-top:40px}.hero h1{font-size:34px}.grid,.channels{grid-template-columns:1fr}}
+</style></head>
+<body>
+<header><nav class="nav">
+<a class="brand" href="index.html"><img src="assets/clipingfactory-icon-1024.png" alt="">ClipingFactory</a>
+<a class="link" href="index.html" aria-current="page">Accueil</a>
+<a class="link" href="conditions-utilisation.html">Conditions d'utilisation</a>
+<a class="link" href="politique-confidentialite.html">Politique de confidentialité</a>
+</nav></header>
+<main>
+<div class="hero">
+  <div>
+    <h1>Les meilleurs moments, <span>en format court</span>.</h1>
+    <p>ClipingFactory est l'outil de production et de publication des chaînes <strong>Wanted FR</strong> et <strong>Spotlight FR</strong>. Il transforme des vidéos longues en clips verticaux sous-titrés, qui sont relus par un humain avant d'être publiés sur nos propres comptes YouTube Shorts, TikTok et Instagram Reels.</p>
+    <p lang="en"><em>ClipingFactory is the production and publishing tool behind the Wanted FR and Spotlight FR channels. It turns long videos into vertical, subtitled clips that are reviewed by a person before being published to our own YouTube Shorts, TikTok and Instagram Reels accounts.</em></p>
+  </div>
+  <img src="assets/clipingfactory-icon-1024.png" alt="Logo ClipingFactory">
+</div>
+
+<section>
+  <h2>Comment ça marche</h2>
+  <div class="grid">
+    <div class="card"><div class="num">1</div><h3>Repérer</h3><p>L'outil repère les vidéos qui marchent chez les créateurs qui nous ont autorisés à les clipper.</p></div>
+    <div class="card"><div class="num">2</div><h3>Monter</h3><p>Il découpe les meilleurs moments, les passe au format vertical 9:16, ajoute des sous-titres lisibles et le nom de la chaîne.</p></div>
+    <div class="card"><div class="num">3</div><h3>Valider et publier</h3><p>Chaque clip est relu et validé à la main, puis publié sur nos comptes officiels, avec le créateur d'origine crédité.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Nos chaînes</h2>
+  <div class="channels">
+    <div class="card channel"><img src="assets/wanted-fr-avatar-800.png" alt="Logo Wanted FR"><div><h3>Wanted FR</h3><p>Les meilleurs moments gaming en français, en ce moment autour de GTA 6.</p></div></div>
+    <div class="card channel"><img src="assets/spotlight-fr-avatar-800.png" alt="Logo Spotlight FR"><div><h3>Spotlight FR</h3><p>Les moments forts des grands créateurs de contenu français.</p></div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Notre engagement envers les créateurs</h2>
+  <div class="grid">
+    <div class="card"><h3>Autorisation</h3><p>Nous ne publions que des extraits de créateurs qui autorisent le clipping de leur contenu.</p></div>
+    <div class="card"><h3>Crédit</h3><p>Le créateur d'origine est cité dans la description de chaque clip, avec un lien vers sa chaîne.</p></div>
+    <div class="card"><h3>Retrait rapide</h3><p>Un créateur peut demander le retrait d'un clip à tout moment à <a href="mailto:nathan.gaudouin76190@gmail.com">nathan.gaudouin76190@gmail.com</a>.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Utilisation de TikTok</h2>
+  <p>ClipingFactory se connecte à TikTok via la connexion officielle TikTok (Login Kit) et la Content Posting API, uniquement pour publier nos propres clips sur nos propres comptes TikTok, après validation humaine. L'outil n'est pas proposé au public et ne collecte aucune donnée sur les spectateurs. Détails : <a href="politique-confidentialite.html">politique de confidentialité</a> et <a href="conditions-utilisation.html">conditions d'utilisation</a>.</p>
+  <p lang="en"><em>ClipingFactory connects to TikTok through TikTok's official Login Kit and Content Posting API, only to publish our own clips to our own TikTok accounts after human review. The tool is not offered to the public and does not collect any data about viewers.</em></p>
+</section>
+</main>
+<footer><div class="foot">
+<span>© 2026 ClipingFactory, édité par NG-Dev</span>
+<a href="conditions-utilisation.html">Conditions d'utilisation / Terms of Service</a>
+<a href="politique-confidentialite.html">Politique de confidentialité / Privacy Policy</a>
+<a href="mailto:nathan.gaudouin76190@gmail.com">nathan.gaudouin76190@gmail.com</a>
+</div></footer>
+</body></html>
